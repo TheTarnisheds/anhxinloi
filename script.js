@@ -25,7 +25,6 @@ noButton.addEventListener("click", function () {
     }
   }
 });
-đi",
     "Anh tự đi mà chơi mình",
     "Hứ đừng hòng em tha lỗi",
     "Anhhh iu bé nhắm nhunnn đóoooo",
