@@ -25,26 +25,7 @@ noButton.addEventListener("click", function () {
     }
   }
 });
-
-function handleYesClick() {
-  titleElement.innerHTML = "Anh iu bé ,Anh hứa hongg làm bé buồn nữa đouuu :3";
-  buttonsContainer.classList.add("hidden");
-  changeImage("yes");
-}
-
-function resizeYesButton() {
-  const computedStyle = window.getComputedStyle(yesButton);
-  const fontSize = parseFloat(computedStyle.getPropertyValue("font-size"));
-  const newFontSize = fontSize * 1.6;
-
-  yesButton.style.fontSize = `${newFontSize}px`;
-}
-
-function generateMessage(noCount) {
-  const messages = [
-    "Không Bao Giờ",
-    "Còn lâu em mới tha",
-    "Mong bé tha lỗi choo anhh :((",
+đi",
     "Anh tự đi mà chơi mình",
     "Hứ đừng hòng em tha lỗi",
     "Anhhh iu bé nhắm nhunnn đóoooo",
